@@ -29,4 +29,27 @@ A Flask-based intelligent customer support chatbot that uses NLP-driven intent c
 ---
 
 ## 🔧 How to Run Locally
-1. Clone the repository  
+1. Clone the repository
+
+2. Install dependencies  
+
+3. Run the Flask app  
+
+
+---
+
+## 🐳 Run with Docker
+
+
+
+---
+
+## 📂 Project Structure
+├── app.py # Main Flask app
+├── faq_data.txt # FAQ training data
+├── model/ # Saved NLP model files
+├── utils/ # Preprocessing + vectorization scripts
+├── requirements.txt
+└── Dockerfile
+
+
