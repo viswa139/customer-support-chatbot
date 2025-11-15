@@ -1,32 +1,32 @@
-
 # AI-Powered Customer Support Chatbot
 
-This is a backend chatbot system built using Python and Flask. It simulates customer support responses through REST APIs and connects to a MySQL database.
+## 📌 Overview
+A Flask-based intelligent customer support chatbot that uses NLP-driven intent classification and retrieval-based methods to handle real-time customer queries. Designed for production-like environments with Docker, Nginx, logging, retries, and modular code structure.
 
-## Features
-- Accepts user queries via POST requests
-- Returns a simulated AI response
-- MySQL-ready for data storage
-- Scalable via deployment on AWS EC2
+---
 
-## Tech Stack
+## 🧰 Tech Stack
 - Python
-- Flask
-- MySQL
+- Flask (Backend API)
+- TensorFlow (Intent Classification)
+- SQL
+- Docker
+- AWS EC2
+- Nginx
+- PyTest
 
-## Usage
-1. Clone this repository
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the server:
-   ```
-   python app.py
-   ```
+---
 
-## Deployment
-To deploy on AWS EC2:
-- Install Python, Git
-- Clone this repo
-- Run with `python app.py`
+## 🚀 Features
+- NLP intent classification for automated query responses  
+- Fast FAQ retrieval using vectorization and similarity matching  
+- REST API endpoints for chatbot integration  
+- Dockerized deployment  
+- Nginx reverse proxy for production stability  
+- Error handling, request logging, and retry mechanisms  
+- Unit and integration tests with PyTest  
+
+---
+
+## 🔧 How to Run Locally
+1. Clone the repository  
